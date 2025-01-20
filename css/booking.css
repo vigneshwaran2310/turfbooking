@@ -1,0 +1,800 @@
+body{
+    background-color: #1D1B20;
+}
+
+button{
+    padding: 4px 12px;
+    width: auto;
+    height: 50%;
+    background-color: #38B000;
+    color: #ffffff;
+    border-radius: 16px;
+}
+.booking-banner{
+    height: 500px;
+    width: 100%;
+    /* background-color: aqua; */
+    padding-bottom: 60px;
+}
+
+.booking-banner .image-container{
+    height: 100%;
+    width: 100%;
+}
+
+.booking-banner .image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.search{
+    height: 100px;
+    width: 100%;
+    background-color: #1D1B20
+    /* padding-bottom 60px; */
+}
+
+.search .wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1D1B20
+}
+
+.search .wrapper .top{
+    height: 30%;
+    width: 100%;
+    /* background-color: lightcoral; */
+}
+
+
+
+.search .wrapper .top p{
+    text-align: center;
+    font-weight: 600;
+    color: #38B000;
+}
+
+.search .wrapper .bottom{
+    height: 70%;
+    width: 100%;
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search .wrapper .bottom input{
+    height: 50%;
+    width: 70%;
+    border-radius: 10px;
+    padding-left: 30px;
+    /* background-color: blueviolet; */
+}
+
+.card-section{
+    height: 700px;
+    width: 100%;
+    /* background-color: beige; */
+    background-color: #1D1B20;
+    margin-bottom: 80px;
+}
+
+.card-section .wrapper{
+    height: 100%;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+.card-section .wrapper .top{
+    height: 10%;
+    width: 100%;
+    /* background-color: light  seagreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section .wrapper .top h1{
+    color: #38B000;
+}
+
+.card-section .wrapper .top p{
+    color: #ffffff;
+}
+
+
+.card-section .wrapper .bottom{
+    height: 90%;
+    width: 100%;
+    /* background-color: lightpink; */
+}
+
+.card-section .wrapper .bottom .card-container{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section .wrapper .bottom .card-container .card{
+    height: 45%;
+    width: 25%;
+    /* background-color: lightpink; */
+    background-color: #000000;
+}
+
+    .card-section .wrapper .bottom .card-container .card .img-container{
+        height: 60%;
+        width: 100%;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .img-container img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content{
+        height: 40%;
+        width: 100%;
+        /* background-color: lightgreen; */
+        padding: 0px ;
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .top{
+        height: 50%;
+        width: 100%;
+        /* background-color: lightseagreen; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin: 8px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .top h1{
+        font-size: 18px;
+        color: #38B000;
+        padding-left: 5px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .top p{
+        padding-left: 5px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .bottom{
+        height: 50%;
+        width: 90%;
+        /* background-color: bisque; */
+        display: flex;
+        align-items: center;
+        /* gap: 170px; */
+        justify-content: space-between;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .bottom p{
+        font-weight: 600;
+        color: #FF3737;
+        padding-left: 5px;
+        
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .bottom i{
+        color: white;
+    }
+
+    /* allsports */
+
+    .allsports{
+        height: 100px;
+        width: 100%;
+        margin-bottom: 80px;
+        /* background-color: #38B000; */
+    }
+
+    .allsports .wrapper{
+        height: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: start;
+        gap: 20px;
+        justify-content: start;
+
+    }
+
+    .allsports .wrapper .card{
+        height: 100%;
+        width: 20%;
+        /* background-color: bisque; */
+        display: flex;
+        gap: 10px;
+        border-right: 2px solid white;
+
+    }
+
+    .allsports .wrapper .card .left{
+        height: 100%;
+        width: 70%;
+        /* background-color: rgb(228, 132, 15); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .allsports .wrapper .card .left h1{
+        font-size: 16px;
+        color: #38B000;
+    }
+
+    .allsports .wrapper .card .left p{
+        font-size: 12px;
+        color: white;
+    }
+
+    .allsports .wrapper .card .right{
+        height: 100%;
+        width: 30%;
+       
+        /* background-color: aliceblue; */
+    }
+
+    .allsports .wrapper .card .right .pic-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .allsports .wrapper .card .right .pic-container img{
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+        box-shadow: rgb(255, 255, 255);
+    }
+
+    /* localities */
+
+    .localities{
+        height: 300px;
+        width: 100%;
+        background-color: #000000;
+        padding-bottom: 80px;
+
+    }
+
+    .localities .wrapper{
+        height: 100%;
+        /* background-color: #38B000; */
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .localities .wrapper h1{
+        color: white;
+    }
+
+    .localities .wrapper p{
+        color: white;
+    }
+
+    .localities .wrapper .top{
+        height: 30%;
+        width: 100%;
+        /* background-color: aliceblue; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .localities .wrapper .bottom{
+        height: 70%;
+        width: 100%;
+        /* background-color: rgb(12, 48, 79); */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .localities .wrapper .bottom .localone{
+        height: 100%;
+        width: 30%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+
+
+
+
+    /* media query starts */
+
+
+ 
+@media screen and (max-width: 1440px) {
+
+    .booking-banner {
+        height: 500px;
+    }
+
+    .search {
+        height: 140px;
+    }
+
+    .search .wrapper {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .search .wrapper .top p {
+        font-size: 22px;
+    }
+
+    .search .wrapper .bottom input {
+        width: 70%;
+        height: 50%;
+        padding-left: 25px;
+    }
+
+    .card-section {
+        height: auto;
+        margin-bottom: 70px;
+    }
+
+    .card-section .wrapper .top h1 {
+        font-size: 28px;
+    }
+
+    .card-section .wrapper .top p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .card-section .wrapper .bottom .card-container {
+        gap: 40px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card {
+        height: 350px;
+        width: 30%;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .top h1 {
+        font-size: 20px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .bottom p {
+        font-size: 16px;
+        margin-left: 8px;
+    }
+
+    .allsports .wrapper {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .allsports .wrapper .card {
+        width: 25%;
+        border-right: 2px solid white;
+    }
+
+    .allsports .wrapper .card .left h1,
+    .allsports .wrapper .card .left p {
+        font-size: 18px;
+    }
+
+    .allsports .wrapper .card .right .pic-container img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .localities {
+        height: 400px;
+        padding-bottom: 70px;
+    }
+
+    .localities .wrapper .top h1,
+    .localities .wrapper .top p {
+        font-size: 20px;
+    }
+
+    .localities .wrapper .bottom {
+        flex-direction: row;
+    }
+
+    .localities .wrapper .bottom .localone {
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 1025px) {
+
+    .booking-banner {
+        height: 450px;
+    }
+
+    .search {
+        height: 130px;
+    }
+
+    .search .wrapper {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .search .wrapper .top p {
+        font-size: 20px;
+    }
+
+    .search .wrapper .bottom input {
+        width: 75%;
+        height: 60%;
+        padding-left: 28px;
+    }
+
+    .card-section {
+        height: auto;
+        margin-bottom: 70px;
+    }
+
+    .card-section .wrapper .top h1 {
+        font-size: 26px;
+    }
+
+    .card-section .wrapper .top p {
+        font-size: 18px;
+    }
+
+    .card-section .wrapper .bottom .card-container {
+        gap: 28px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card {
+        height: 400px;
+        width: 30%;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .top h1 {
+        font-size: 20px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .bottom p {
+        font-size: 16px;
+    }
+
+    .allsports .wrapper {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .allsports .wrapper .card {
+        width: 25%;
+        border-right: 2px solid white;
+    }
+
+    .allsports .wrapper .card .left h1,
+    .allsports .wrapper .card .left p {
+        font-size: 18px;
+    }
+
+    .allsports .wrapper .card .right .pic-container img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .localities {
+        height: 400px;
+        padding-bottom: 70px;
+    }
+
+    .localities .wrapper .top h1,
+    .localities .wrapper .top p {
+        font-size: 20px;
+    }
+
+    .localities .wrapper .bottom {
+        flex-direction: row;
+    }
+
+    .localities .wrapper .bottom .localone {
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .booking-banner {
+        height: 400px;
+    }
+
+    .search {
+        height: 120px;
+    }
+
+    .search .wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search .wrapper .top p {
+        font-size: 18px;
+    }
+
+    .search .wrapper .bottom input {
+        width: 80%;
+        height: 50%;
+        padding-left: 25px;
+    }
+
+    .card-section {
+        height: auto;
+        margin-bottom: 60px;
+    }
+
+    .card-section .wrapper .top h1 {
+        font-size: 24px;
+    }
+
+    .card-section .wrapper .top p {
+        font-size: 16px;
+    }
+
+    .card-section .wrapper .bottom .card-container {
+        gap: 40px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card {
+        height: 350px;
+        width: 80%;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .top h1 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .bottom p {
+        font-size: 14px;
+    }
+
+    .allsports .wrapper {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .allsports .wrapper .card {
+        width: 100%;
+        border-right: none;
+    }
+
+    .allsports .wrapper .card .left h1,
+    .allsports .wrapper .card .left p {
+        font-size: 14px;
+    }
+
+    .allsports .wrapper .card .right .pic-container img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .localities {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    .localities .wrapper .top h1,
+    .localities .wrapper .top p {
+        font-size: 16px;
+    }
+
+    .localities .wrapper .bottom {
+        flex-direction: column;
+    }
+
+    .localities .wrapper .bottom .localone {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .booking-banner {
+        height: 300px;
+    }
+
+    .search {
+        height: 120px;
+    }
+
+    .search .wrapper {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .search .wrapper .top p {
+        font-size: 16px;
+    }
+
+    .search .wrapper .bottom input {
+        width: 90%;
+        height: 40%;
+        padding-left: 20px;
+    }
+
+    .card-section {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .card-section .wrapper .top h1 {
+        font-size: 20px;
+    }
+
+    .card-section .wrapper .top p {
+        font-size: 14px;
+    }
+
+    .card-section .wrapper .bottom .card-container {
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-section .wrapper .bottom .card-container .card {
+        height: 250px;
+        width: 80%;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .top h1 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .bottom p {
+        font-size: 12px;
+    }
+
+    .allsports .wrapper {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .allsports .wrapper .card {
+        width: 100%;
+        border-right: none;
+    }
+
+    .allsports .wrapper .card .left h1,
+    .allsports .wrapper .card .left p {
+        font-size: 14px;
+    }
+
+    .allsports .wrapper .card .right .pic-container img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .localities {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .localities .wrapper .top h1,
+    .localities .wrapper .top p {
+        font-size: 14px;
+    }
+
+    .localities .wrapper .bottom {
+        flex-direction: column;
+    }
+
+    .localities .wrapper .bottom .localone {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .booking-banner {
+        height: 250px;
+    }
+
+    .search {
+        height: 100px;
+    }
+
+    .search .wrapper .top p {
+        font-size: 14px;
+    }
+
+    .search .wrapper .bottom input {
+        width: 90%;
+        height: 35%;
+        padding-left: 15px;
+    }
+
+    .card-section {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .card-section .wrapper .top h1 {
+        font-size: 18px;
+    }
+
+    .card-section .wrapper .top p {
+        font-size: 12px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card {
+        height: 200px;
+        width: 90%;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .top h1 {
+        font-size: 14px;
+    }
+
+    .card-section .wrapper .bottom .card-container .card .content .bottom p {
+        font-size: 10px;
+    }
+
+    .allsports .wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .allsports{
+        height: auto;
+    }
+
+    .allsports .wrapper .card {
+        width: 100%;
+        border-right: none;
+    }
+
+    .allsports .wrapper .card .left h1,
+    .allsports .wrapper .card .left p {
+        font-size: 12px;
+    }
+
+    .allsports .wrapper .card .right .pic-container img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .localities {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .localities .wrapper .top h1,
+    .localities .wrapper .top p {
+        font-size: 12px;
+    }
+
+    .localities .wrapper .bottom .localone {
+        width: 100%;
+    }
+}

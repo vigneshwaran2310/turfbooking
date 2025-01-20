@@ -1,0 +1,356 @@
+.allsports{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 80px;
+    /* background-color: #38B000; */
+}
+
+.allsports .wrapper{
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+
+}
+
+.allsports .wrapper .card{
+    height: 100%;
+    width: 16%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid white;
+
+}
+
+.allsports .wrapper .card .left{
+    height: 100%;
+    width: 90%;
+    /* background-color: rgb(228, 132, 15); */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.allsports .wrapper .card .left h1{
+    font-size: 16px;
+    color: #38B000;
+}
+
+.allsports .wrapper .card .left p{
+    font-size: 12px;
+    color: white;
+}
+
+.allsports .wrapper .card .right{
+    height: 100%;
+    width: 30%;
+   
+    /* background-color: aliceblue; */
+}
+
+.allsports .wrapper .card .right .pic-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allsports .wrapper .card .right .pic-container img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    box-shadow: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+.abs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.abs .wrap{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.abs .wrap .fivedivwrapper .fivediv h2{
+    color: #38B000;
+}
+
+.abs .wrap h1{
+    font-size: 40px;
+    color: #38B000;
+    margin-bottom: 40px;
+    margin: 5%;
+}
+.abs .wrap .fivedivwrapper .fivediv p{
+    color: white;
+    text-align: center;
+}
+
+.abs .wrap .fivedivwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.abs .wrap .fivedivwrapper .fivediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.parawrapcontainer{
+    width: 100%;
+    height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 80px;
+}
+.parawrapcontainer span{
+    color: white;
+}
+
+.parawrap {
+    width: 90%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+
+justify-content: center;
+align-items: start;
+flex-direction: column;}
+
+.parawrap p{
+    color: #38B000;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .abs .wrap {
+        width: 80%;
+        gap: 15px;
+    }
+
+    .abs .wrap .fivedivwrapper {
+        gap: 30px;
+    }
+
+    .parawrap {
+        width: 80%;
+        gap: 15px; /* Adjust space between paragraphs */
+    }
+
+    .parawrap p {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .abs .wrap {
+        width: 85%;
+        gap: 12px;
+    }
+    .abs .wrap h1{
+        font-size: 28px;
+    }
+    .abs .wrap .fivedivwrapper {
+        gap: 20px;
+    }
+
+    .parawrap {
+        width: 85%;
+        gap: 10px;
+    }
+
+    .parawrap p {
+        font-size: 16px;
+    }
+    .allsports .wrapper .card {
+        width: 16%;
+        border-right: none;
+    }
+
+    .allsports .wrapper .card .left h1 {
+        font-size: 14px;
+    }
+
+    .allsports .wrapper .card .left p {
+        font-size: 10px;
+    }
+
+    .allsports .wrapper .card .right .pic-container img {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .abs .wrap {
+        width: 90%;
+        gap: 10px;
+    }
+    .abs .wrap h1{
+        font-size: 32px;
+    }
+    .abs .wrap .fivedivwrapper {
+        gap: 15px;
+    }
+
+    .parawrap {
+        width: 90%;
+        gap: 8px;
+    }
+
+    .parawrap p {
+        font-size: 14px;
+    }
+
+    .allsports{
+        height: auto;
+    }
+    .allsports .wrapper .card {
+        width: 40%;
+    }
+
+    .allsports .wrapper .card .left h1 {
+        font-size: 16px;
+    }
+
+    .allsports .wrapper .card .left p {
+        font-size: 12px;
+    }
+
+    .allsports .wrapper .card .right .pic-container img {
+        height: 30px;
+        width: 30px;
+    }
+    .allsports .wrapper {
+        height: 100%;
+        /* background-color: aqua; */
+        display: flex; 
+        align-items: center;
+        /* gap: 20px; */
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .abs .wrap {
+        width: 95%;
+        gap: 8px;
+    }
+
+    .abs .wrap .fivedivwrapper {
+        gap: 10px;
+    }
+
+    .parawrap {
+        width: 95%;
+        gap: 6px;
+    }
+
+    .parawrap p {
+        font-size: 12px;
+    }
+    .allsports .wrapper .card {
+        width: 50%;
+    }
+
+
+    .abs .wrap h1 {
+        font-size: 24px;
+    }
+    .abs .wrap h2 {
+        font-size: 20px;
+    }
+    .allsports .wrapper .card .left h1 {
+        font-size: 14px;
+    }
+
+    .allsports .wrapper .card .left p {
+        font-size: 10px;
+    }
+
+    .allsports .wrapper .card .right .pic-container img {
+        height: 25px;
+        width: 25px;
+    }
+    .abs .wrap .fivedivwrapper .fivediv p {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .abs .wrap {
+        width: 100%;
+        gap: 4px;
+    }
+
+    .abs .wrap .fivedivwrapper {
+        gap: 6px;
+    }
+
+    .parawrap {
+        width: 100%;
+        gap: 4px;
+        margin: 10%;
+    }
+
+    .parawrap p {
+        font-size: 10px;
+    }
+    .allsports .wrapper .card {
+        width: 100%;
+    }
+
+    .allsports .wrapper .card .left h1 {
+        font-size: 12px;
+    }
+
+    .allsports .wrapper .card .left p {
+        font-size: 8px;
+    }
+
+    .allsports .wrapper .card .right .pic-container img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .allsports .wrapper .card .left {
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,259 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1D1B20;
+}
+
+.wrapper{
+    padding: 0px 0px;
+}
+
+
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+nav .nav-wrapper {
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .nav-wrapper .logo-container {
+  color: white;
+  font-size: 16px;
+}
+
+nav .nav-wrapper .topnav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav .nav-wrapper .topnav-right a {
+  float: left;
+  color: lightgrey;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav-right a.not-active:hover {
+  color: grey;
+}
+
+.topnav-right a.active {
+  text-decoration: underline;
+}
+
+nav .nav-wrapper .navbar-left .button {
+  border: none;
+  color: green;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid;
+  border-color: green;
+}
+
+nav .nav-wrapper .navbar-left #btn {
+  background-color: green;
+  color: white;
+}
+
+.navbar .nav-wrapper .topnav-right .active{
+  color: green;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-toggle-label {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+footer {
+    background-color: #1D1B20;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    
+  }
+
+  footer p{
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  footer p a{
+    color: white;
+  }
+
+  
+  .footer-container {
+    display: flex;
+  
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+   .footer-container  .right-section a{
+    color: #fff;
+   }
+  
+  .left-section, .middle-section, .right-section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .left-section img.logo {
+    width: 90px;
+    margin-bottom: 10px;
+  }
+  
+  .app-links img {
+    width: 120px;
+    margin-right: 10px;
+  }
+  
+  .middle-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .middle-section ul li {
+    margin: 5px 0;
+  }
+  
+  .middle-section ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .right-section p, .right-section a {
+    margin: 10px 0;
+
+  }
+  
+  .social-links img {
+    width: 25px;
+    margin-right: 10px;
+  }
+  
+  .payment-methods {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .payment-methods img {
+    width: 50px;
+    margin: 5px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+  }
+
+  @media only screen and (max-width: 970px){
+  nav .nav-wrapper .topnav-right {
+    gap: 16px;
+  }}
+
+  @media only screen and (max-width: 885px){
+  nav .nav-wrapper .topnav-right a {
+font-size:14px ;
+  }}
+  @media only screen and (max-width: 855px){
+  nav .nav-wrapper h1  {
+    font-size: 20px;
+  }}
+
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      height: 52px;}
+    nav .nav-wrapper {
+      flex-direction: row;
+    }
+    
+    nav .nav-wrapper .menu-toggle{
+      display: none;
+    }
+    nav .nav-wrapper .topnav-right {
+      display: none;
+      flex-direction: column;
+      background-color: black;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      padding: 10px 0;
+    }
+
+    nav .nav-wrapper .topnav-right a {
+      padding: 10px 20px;
+      border-bottom: 1px solid #333;
+    }
+
+    .menu-toggle {
+      display: block;
+    }
+
+    .menu-toggle-label {
+      display: block;
+    }
+
+    #menu-toggle:checked ~ .topnav-right {
+      display: flex;
+    }
+
+    nav .nav-wrapper .navbar-left {
+      /* display: none; */
+    }
+  }
+
+  
+
+
+
+
+  @media only screen and (max-width: 426px) {
+     .footer-container { 
+  flex-direction: column-reverse;}}
